@@ -1,0 +1,13 @@
+Digimon World DS Android build
+
+Build: :app:assembleGitHubProdDebug passed.
+APK signature: apksigner verification passed (v2).
+APK integrity: ZIP CRC and bundled ROM SHA-256 passed.
+Native architectures: arm64-v8a, armeabi-v7a, x86_64 present.
+Device test: APK installed successfully on an Android 9 x86-64 software emulator.
+Automatic launch: bundled launcher entered EmulatorActivity without a ROM picker.
+ROM boot: Bandai Namco / Nintendo licensing screens rendered with both DS screens and on-screen controls.
+Save storage: digimon.sav created in app-specific external storage. A complete in-game save/load cycle was not tested.
+Real-device performance, audio output, and full gameplay were not tested.
+
+Build and licensing instructions are included in Digimon-World-DS-source.zip (BUILD_GAME.md).
